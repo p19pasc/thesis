@@ -1,0 +1,24 @@
+/* This css file is shared from all php files from treasures folder which have two columns to display to the user.
+(Shared by infromationcategory.php and author.php)*/
+
+/* Each row of the table has 3 <td>. The first one with the description, the second with the greater_description
+and the third one with the icon.
+Each time the <td> is 1 (description) and 2(greater_desc), I add some padding between and font-weight for better looking. */
+.table>tbody>tr>td:nth-child(n) {
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+/* Center vertically the rubbish bin icon in its <td>  */
+.table>tbody>tr>td:nth-child(3){
+    vertical-align: middle;
+}
+
+/* With display block, the two text areas stay one next to other and submit button goes under them */
+.textarea_box{
+    display: block;
+}
+
+#paragraph{
+    font-size: 18px;
+}

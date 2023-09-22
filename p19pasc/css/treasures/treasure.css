@@ -1,0 +1,8 @@
+#treasure_choice {
+    color: inherit;
+    text-decoration: none;
+}
+
+#treasure_choice:hover{
+    color: green;
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px){
+    form{
+        margin-left: 100px !important;
+    }
+}
+
+form{
+    margin-left: 200px;
+}
+
+.table{
+    margin-top: 40px;
+}
+
+
+.table>tbody{
+    font-size: 15px; 
+}
+
+.table>thead>tr>th{
+    
+    background-color: grey;
+    font-size: 16px;
+    color: black;
+}
+
+.table>tbody>tr>td, .table>thead>tr>th{
+    text-align: center;
+    vertical-align: middle;
+}
+

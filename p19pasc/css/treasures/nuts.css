@@ -1,0 +1,17 @@
+.table{
+    font-family: proxima-nova, sans-serif;
+    font-size: 18px;
+}
+
+.row{
+    padding-left: 180px;
+}
+
+.table_container{
+    margin-top: 40px;
+}
+
+#nuts_table{
+    font-size: 15px;
+}
+

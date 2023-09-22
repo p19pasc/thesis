@@ -1,0 +1,27 @@
+/* A css file that all php files from treasures folder share. */
+
+/* Access to <th> element and change its view */
+.table>thead>tr>th{
+    background-color: grey;
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+/* Make space from the top element of the form and from the end of the page.*/
+#add_new_column{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* Customize buttons to be fixed at the right side of the page */
+#teleport_top{
+    position:fixed;
+    right:5px;
+}
+
+#teleport_button{
+    position:fixed;
+    right:5px;
+    margin-top:45px;
+}

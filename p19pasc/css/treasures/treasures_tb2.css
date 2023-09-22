@@ -1,0 +1,19 @@
+/* This css file is shared from all php files from treasures folder which have only one column to display to the user.
+(all files except infromationcategory.php and author.php)*/
+
+/* Each row of the table has two <td>. The first one with the description and the second with the icon.
+Each time the <td> is 1 (description), I add some padding between and font-weight for better looking. */
+.table>tbody>tr>td:nth-child(1){
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+/* With inline-block the form elements get in a row */
+#paragraph{
+    display: inline-block;
+}
+
+/* Center vertically the rubbish bin icon in its <td>  */
+.table>tbody>tr>td:nth-child(2){
+    vertical-align: middle;
+}
