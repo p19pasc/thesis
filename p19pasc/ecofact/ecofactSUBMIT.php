@@ -1,5 +1,5 @@
 <?php
-    // create a session with ecofactINSERT.php to pass message from ecofactINSERT.php through $_SERVER superglobal
+    // create a session with ecofactINSERT.php to pass message from ecofactINSERT.php through $_SESSION superglobal
     session_start();
     include "../connDB.php";
     
@@ -29,7 +29,7 @@
 
 
     <h3 id="main_title">Προσθήκη νέου Κλιματικού/Περιβαλλοντικού Δεδομένου</h3>
-    <div class="container w-75">
+    <div class="container">
         <?php
             if (isset($_SESSION['message'])) {
                 $message = $_SESSION['message'];

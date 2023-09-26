@@ -1,5 +1,5 @@
 <?php 
-    // Create a session with sitesINSERT.php to pass message from sitesINSERT.php through $_SERVER superglobal
+    // Create a session with sitesINSERT.php to pass message from sitesINSERT.php through $_SESSION superglobal
     session_start();
 
     include "../connDB.php";

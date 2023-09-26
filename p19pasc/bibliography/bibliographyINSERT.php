@@ -1,5 +1,5 @@
 <?php
-    // Create a session with bibliographySUBMIT.php to pass message from bibliographyINSERT.php through $_SERVER superglobal
+    // Create a session with bibliographySUBMIT.php to pass message from bibliographyINSERT.php through $_SESSION superglobal
     session_start();
 
     include "../connDB.php";

@@ -1,5 +1,5 @@
 <?php
-    // Create a session with intervieweeINSERT.php to pass message from intervieweeINSERT.php through $_SERVER superglobal
+    // Create a session with intervieweeINSERT.php to pass message from intervieweeINSERT.php through $_SESSION superglobal
     session_start();
 
     include "../connDB.php";

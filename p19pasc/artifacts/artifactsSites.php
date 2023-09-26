@@ -17,7 +17,7 @@
     <?php include "../connDB.php"; ?>
     <?php include "../navbar.php"; ?>
 
-    <h3 id="main_title">Αναζήτηση με βάση τόπο ανασκαφής</h3>
+    <h3 id="main_title">Αναζήτηση με βάση τον τόπο ανασκαφής</h3>
 
         <!-- Col class combined with col-sm/md/lg..-(number 1-12), sets the number of columns (grid system) that the container
              will take for the specific window size. -->

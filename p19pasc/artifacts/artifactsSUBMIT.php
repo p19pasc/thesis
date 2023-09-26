@@ -1,5 +1,5 @@
 <?php
-    // create a session with artifactsINSERT.php to pass message from artifactsINSERT.php through $_SERVER superglobal
+    // create a session with artifactsINSERT.php to pass message from artifactsINSERT.php through $_SESSION superglobal
     session_start();
     include "../connDB.php";
 

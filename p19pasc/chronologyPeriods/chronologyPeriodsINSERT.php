@@ -1,5 +1,5 @@
 <?php
-    // Create a session with chronologyPeriodsSUBMIT.php to pass message from chronologyPeriodsINSERT.php through $_SERVER superglobal
+    // Create a session with chronologyPeriodsSUBMIT.php to pass message from chronologyPeriodsINSERT.php through $_SESSION superglobal
     session_start();
 
     include "../connDB.php";

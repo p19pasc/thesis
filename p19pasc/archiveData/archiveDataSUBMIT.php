@@ -1,5 +1,5 @@
 <?php
-    // create a session with archiveDataINSERT.php to pass message from archiveDataINSERT.php through $_SERVER superglobal
+    // create a session with archiveDataINSERT.php to pass message from archiveDataINSERT.php through $_SESSION superglobal
     session_start();
 
     include "../connDB.php";
