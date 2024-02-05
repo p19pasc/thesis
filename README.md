@@ -6,4 +6,4 @@ The **XAMPP** platform was used, the **VisualParadigm** for the data base creati
 ![Screenshot (196)](https://github.com/p19pasc/thesis/assets/72496151/41399c38-8b94-4c42-8353-211539d841d4)
 
 
-[![HitCount](https://hits.dwyl.com/p19pasc/thesis.svg?style=flat-square)](http://hits.dwyl.com/p19pasc/thesis)
+  [![HitCount](https://hits.dwyl.com/p19pasc/thesis.svg?style=flat-square&show=unique)](http://hits.dwyl.com/p19pasc/thesis)
